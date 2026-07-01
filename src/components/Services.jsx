@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Smartphone, Globe, Cloud, Layout, Database, Shield } from 'lucide-react';
+import { Smartphone, Globe, Cloud, Layout, Bot, Cpu } from 'lucide-react';
 
 export default function Services() {
   const services = [
@@ -22,9 +22,9 @@ export default function Services() {
       color: 'purple'
     },
     {
-      icon: <Database className="w-8 h-8" />,
-      title: 'Backend Systems',
-      description: 'Robust, scalable API architectures and database designs that power your applications securely.',
+      icon: <Bot className="w-8 h-8" />,
+      title: 'Chatbots',
+      description: 'Intelligent conversational AI solutions that automate customer support, lead generation, and user engagement.',
       color: 'emerald'
     },
     {
@@ -34,9 +34,9 @@ export default function Services() {
       color: 'sky'
     },
     {
-      icon: <Shield className="w-8 h-8" />,
-      title: 'Cybersecurity',
-      description: 'Comprehensive security audits and implementation to protect your digital assets and user data.',
+      icon: <Cpu className="w-8 h-8" />,
+      title: 'Automations',
+      description: 'Streamline your operations with custom automated workflows, seamless API integrations, and smart data processing.',
       color: 'rose'
     }
   ];
