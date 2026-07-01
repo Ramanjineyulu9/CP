@@ -61,6 +61,15 @@ export default function Hero() {
             <ChevronRight className="w-5 h-5" />
           </a>
         </motion.div>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="mt-10 text-sm text-slate-500"
+        >
+          For more visit our official website <a href="https://zustnext.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors underline underline-offset-4 font-medium">zustnext.com</a>
+        </motion.p>
       </div>
     </section>
   );
