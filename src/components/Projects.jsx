@@ -10,7 +10,7 @@ export default function Projects() {
       description: 'A comprehensive restaurant management POS system built to streamline operations, manage billing, and integrate seamless payments (Cashfree) for modern dining establishments.',
       features: ['Table Management', 'QR Code Payments', 'Inventory Tracking', 'Real-time Analytics'],
       image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=1200',
-      link: '#', // The user will provide the link later
+      link: 'https://pet-theta-vert.vercel.app/',
       color: 'blue'
     },
     {
@@ -20,7 +20,7 @@ export default function Projects() {
       description: 'An advanced AI agent dashboard that provides deep insights and automated task execution capabilities, integrated with cutting edge LLMs.',
       features: ['Automated Workflows', 'Custom AI Agents', 'API Integration', 'Data Visualization'],
       image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1200',
-      link: '#',
+      link: 'https://data-analysis-chat-bot.vercel.app/',
       color: 'indigo'
     }
   ];

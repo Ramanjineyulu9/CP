@@ -3,10 +3,10 @@ import { Target, Users, Zap } from 'lucide-react';
 
 export default function About() {
   const stats = [
-    { label: 'Successful Projects', value: '50+' },
-    { label: 'Happy Clients', value: '30+' },
-    { label: 'Years Experience', value: '5+' },
-    { label: 'Team Members', value: '15+' },
+    { label: 'Successful Projects', value: '5+' },
+    { label: 'Happy Clients', value: '5+' },
+    { label: 'Years Experience', value: '1+' },
+    { label: 'Team Members', value: '10+' },
   ];
 
   return (
@@ -24,11 +24,11 @@ export default function About() {
               Pioneering the next generation of digital experiences.
             </h3>
             <p className="text-slate-400 text-lg mb-8 leading-relaxed">
-              At Zustnext, we believe in the power of technology to solve complex problems. 
-              Our team of expert engineers, designers, and strategists work together to deliver 
+              At Zustnext, we believe in the power of technology to solve complex problems.
+              Our team of expert engineers, designers, and strategists work together to deliver
               scalable, high-performance software tailored to your specific business needs.
             </p>
-            
+
             <div className="space-y-6">
               <div className="flex gap-4">
                 <div className="mt-1 bg-blue-500/10 p-2 rounded-lg h-fit">
@@ -59,7 +59,7 @@ export default function About() {
             className="grid grid-cols-2 gap-4"
           >
             {stats.map((stat, index) => (
-              <div 
+              <div
                 key={index}
                 className="bg-slate-900 border border-slate-800 p-8 rounded-2xl flex flex-col items-center justify-center text-center hover:border-blue-500/50 transition-colors"
               >
